@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustFit</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+
+<header>
+    <img src="imagenes/logo.png" alt="Logo JustFit" class="logo izquierda">
+    <nav>
+    </nav>
+    <img src="imagenes/logo.png" alt="Logo JustFit" class="logo derecha">
+</header>
+
+<h1 id="titulo-principal">
+    <span class="just">JUST</span><span class="fit">FIT</span>
+</h1>
+
+<!-- Agregado el lema debajo del título principal -->
+<h2 class="lema">"Estil i exclusivitat amb un compromís ferm amb la sostenibilitat."</h2>
+
+<!-- Sección de navegación -->
+<nav>
+    <div class="nav-row">
+        <!-- Primera fila de enlaces -->
+        <a href="#" onclick="showSection('inicio')"><i class="fas fa-home"></i> Inici</a>
+        <a href="#" onclick="showSection('sobre')"><i class="fas fa-info-circle"></i> Sobre nosaltres</a>
+        <a href="#" onclick="showSection('consum')"><i class="fas fa-leaf"></i> Consum Responsable</a>
+        <a href="#" onclick="showSection('energia')"><i class="fas fa-bolt"></i> Estalvi Energètic</a>
+    </div>
+    <div class="nav-row">
+        <!-- Segunda fila de enlaces -->
+        <a href="#" onclick="showSection('habits')"><i class="fas fa-heart"></i> Hàbits Saludables</a>
+        <a href="#" onclick="showSection('medi')"><i class="fas fa-leaf"></i> Medi Ambient</a>
+        <a href="#" onclick="showSection('tienda')"><i class="fas fa-shopping-cart"></i> Botiga</a>
+    </div>
+</nav>
+</header>
+
+<!-- Secciones de contenido -->
+
+<div class="content">
+    <!-- Sección de Inicio -->
+    <div id="inicio" class="section active">
+        <h1>Benvingut a JustFit</h1>
+        <p> JustFit on la moda de luxe es combina amb la sostenibilitat. Amb cada peça, no només portes estil, sinó també consciència ecològica. Descobreix l'elegància que respecta el nostre planeta. </p>
+    </div>
+
+    <!-- Sección de Tienda -->
+    <div id="tienda" class="section">
+        <h1>Botiga</h1>
+        <p>Aquestes són les peces de roba que nosaltres oferim</p>
+        <div class="product-grid">
+            <!-- Producto 1 -->
+            <div class="product-item">
+                <img src="imagenes/camisetas.jpeg" alt="Prenda 1">
+                <p>Camiseta de cotó orgànic</p>
+                <p>$25.00</p>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="product-item">
+                <img src="imagenes/jeans.jpeg" alt="Prenda 2">
+                <p>Calçons EcoStyle </p>
+                <p>$35.00</p>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="product-item">
+                <img src="imagenes/jeanss.jpeg" alt="Prenda 3">
+                <p>Calçons  EcoStyle </p>
+                <p>$35.00</p>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="product-item">
+                <img src="imagenes/calconcillos.jpg" alt="Prenda 4">
+                <p>Calçotets</p>
+                <p>$10.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de Sobre Nosotros -->
+    <div id="sobre" class="section">
+        <h1>Sobre nosaltres</h1>
+        <p>A JUSTFIT, estem decidits a transformar la moda de luxe, oferint peces úniques que combinen dissenys sofisticats amb materials sostenibles. Creiem que el luxe pot ser responsable i respectuós amb el medi ambient. Cada col·lecció que creem reflecteix el nostre compromís amb el medi ambient juntament amb l'excel·lència i la qualitat, aportant-te elegància de manera conscient i responsable.</p>
+    </div>
+
+    <!-- Sección de Consumo Responsable -->
+    <div id="consum" class="section">
+        <h1>Consum Responsable</h1>
+        <p>La moda de luxe no ha de ser destructiva. A JUSTFIT, adoptem el consum responsable com a part dels nostres valors. Cada peça que oferim està fabricada amb els millors materials, seguint pràctiques que no destrueixin el planeta, i això et permet gaudir del luxe sense remordiments.</p>
+    </div>
+
+    <!-- Sección de Ahorro Energético -->
+    <div id="energia" class="section">
+        <h1>Estalvi Energètic</h1>
+        <p>Ens preocupem per cada detall, i això inclou com fabriquem les nostres peces. JUSTFIT optimitza el procés de producció per reduir el consum energètic, assegurant-nos que les nostres peces siguin no només elegants, sinó també responsables amb el medi ambient.</p>
+    </div>
+
+    <!-- Sección de Hábitos Saludables -->
+    <div id="habits" class="section">
+        <h1>Hàbits Saludables</h1>
+        <p>Promovem un estil de vida saludable. Escollir JUSTFIT no només vol dir escollir estil, també vol dir escollir benestar. La nostra roba està dissenyada per ser còmoda i duradora, contribuint a un estil de vida saludable, tant per a tu com per al planeta.</p>
+    </div>
+
+    <!-- Sección de Medio Ambiente -->
+    <div id="medi" class="section">
+        <h1>Medi Ambient</h1>
+        <p>A JustFit, creiem que la moda ha de ser una força positiva pel planeta. El nostre compromís amb el medi ambient es veu reflectit en cada producte que creem, des de la selecció de materials fins als processos de fabricació. Utilitzem materials orgànics i reciclats per reduir l'impacte ambiental i optimitzar els recursos. A més, treballem per millorar cada dia en la forma en què fabriquem els nostres productes, per tal de deixar un impacte cada cop més petit al medi ambient.</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
